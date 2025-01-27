@@ -1,0 +1,18 @@
+footer {
+  margin: 60px;
+  text-align: center;
+}
+
+.App img {
+  font-size: x-small;
+}
+
+.App-header img {
+  float: left;
+  width: 100px;
+}
+
+.App-header h1 {
+  left: 10px;
+  margin: 30px;
+}
