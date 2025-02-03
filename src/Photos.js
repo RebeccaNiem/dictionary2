@@ -1,9 +1,6 @@
-import React, { useState, useEffect } from "react";
-import Dictionary from "./Dictionary";
+import React, { useState } from "react";
 
 export default function Photos(props) {
-  let [keyword, setKeyword] = useState("");
-
   if (Array.isArray(props.photos) && props.photos.length > 0) {
     return (
       <div>
