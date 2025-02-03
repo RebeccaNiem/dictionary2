@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 export default function Photos(props) {
   if (Array.isArray(props.photos) && props.photos.length > 0) {
@@ -12,7 +12,7 @@ export default function Photos(props) {
               <a href={photo.src.original} target="_blank" rel="noreferrer">
                 <img
                   src={photo.src.landscape}
-                  alt="photo"
+                  alt=""
                   style={{ width: "100%" }}
                 />
               </a>
