@@ -6,5 +6,32 @@
   text-align: center;
 }
 
-.container {
+.box-header {
+  background-color: #d2dbc7;
+}
+.search-form .input {
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.input {
+  font-size: 5px;
+}
+
+.search-button {
+  background-color: transparent;
+  border: transparent;
+  padding: 10px;
+}
+
+.search-button:focus {
+  outline: none;
+}
+
+.search-button:hover {
+  outline: none; /* Ensure no outline on hover */
+  border: none; /* Remove border */
+  background-color: transparent;
+  cursor: pointer;
 }

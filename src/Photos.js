@@ -1,4 +1,5 @@
 import React from "react";
+import "./Photos.css";
 
 export default function Photos(props) {
   if (Array.isArray(props.photos) && props.photos.length > 0) {
@@ -6,6 +7,7 @@ export default function Photos(props) {
       <div>
         <br />
         <h2> Photo Gallery</h2>
+
         <div className="row">
           {props.photos.map((photo, index) => (
             <div className="col-4" key={index}>

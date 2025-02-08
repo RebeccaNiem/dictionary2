@@ -1,5 +1,6 @@
 footer {
   text-align: center;
+  font-size: 10px;
 }
 
 .App-header img {
@@ -10,19 +11,29 @@ footer {
 .App-header h1 {
   left: 10px;
   text-align: center;
-}
-
-.App-header h2 {
-  text-align: center;
+  font-family: "Delius Unicase", cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .App-header {
-  border: 2px solid red;
-  max-width: 100%;
+  border: 10px solid #d2dbc7;
+  max-width: 90%;
+  border-radius: 20px;
+  background-color: #d2dbc7;
+  margin: 40px;
+  margin-bottom: 20px;
 }
 
 .container {
   margin-top: 20px;
-  border: 2px solid red;
-  max-width: 100%;
+  border: 10px solid #d2dbc7;
+  max-width: 90%;
+  border-radius: 20px;
+}
+.box-header {
+  color: beige;
+}
+
+.dots {
+  font-size: 40px;
 }

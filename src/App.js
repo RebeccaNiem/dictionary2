@@ -1,7 +1,7 @@
 import "./App.css";
-
+import "./logo.png";
 import Dictionary from "./Dictionary";
-import Results from "./Results";
+
 import React from "react";
 
 function App() {
@@ -19,9 +19,9 @@ function App() {
       </div>
 
       <div className="container">
+        <span class="dots">•••</span>
         <main>
           <Dictionary />
-          <Results results="result" />
         </main>
       </div>
 
