@@ -2,8 +2,14 @@
   text-align: center;
   margin: 20px;
 }
-.container h2 {
+h2 {
   text-align: center;
+  background-color: #d2dbc730;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  background-color: #d2dbc71a;
 }
 
 .box-header {
@@ -30,8 +36,8 @@
 }
 
 .search-button:hover {
-  outline: none; /* Ensure no outline on hover */
-  border: none; /* Remove border */
+  outline: none;
+  border: none;
   background-color: transparent;
   cursor: pointer;
 }

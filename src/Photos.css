@@ -1,7 +1,28 @@
-.col-4 {
-  padding: 10px;
+.image {
+  border-radius: 10px;
 }
+
+.photos {
+  border-radius: 10px;
+}
+
+.col-4 {
+  flex: 0 0 33.33%;
+  padding: 5px;
+  max-width: 100%;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+}
+
 h2 {
   font-family: "Delius Unicase", cursive;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }

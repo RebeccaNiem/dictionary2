@@ -1,3 +1,15 @@
 ul {
   margin: 10px;
 }
+
+.Meaning ul {
+  font-family: "Delius Unicase", cursive;
+  padding: 10px;
+  text-align: left;
+  border: 10px solid #d2dbc7;
+  border-radius: 10px;
+}
+
+strong {
+  font-size: 17px;
+}

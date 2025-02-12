@@ -1,22 +1,27 @@
 import React from "react";
-import Meaning from "./Meaning";
-import "./Results.css";
 import Phonetic from "./Phonetic";
+import Meaning from "./Meaning";
 
-export default function Result(props) {
+export default function Results(props) {
   if (props.result) {
     return (
       <div className="Result">
-        <section>
-          <h1> {props.result.word} </h1>
+        <h1> {props.result.word} </h1>
 
-          <p className="phonetics-label">/{props.result.phonetic}/</p>
-          <Phonetic phonetic={props.result.phonetic} />
+        <section>
+          {props.result.phonetic ? (
+            <div>
+              <Phonetic phonetic={props.result.phonetic} />{" "}
+            </div>
+          ) : (
+            <p>No phonetics available.</p>
+          )}
         </section>
+
         {props.result.meanings.length > 0 && (
           <section>
-            <div className="border shadow-sm rounded">
-              <Meaning meaning={props.result.meanings[0]} />
+            <div className="info-box">
+              <Meaning meanings={props.result.meanings[0]} />
             </div>
           </section>
         )}

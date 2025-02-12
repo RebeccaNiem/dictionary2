@@ -25,8 +25,10 @@ function App() {
         </main>
       </div>
 
+      <br />
       <footer>
-        This project was coded by Rebecca and is open spurced on Github
+        This project was coded by Rebecca and is open sourced on{" "}
+        <a href="https://github.com/RebeccaNiem/dictionary2">Github</a>
       </footer>
     </div>
   );

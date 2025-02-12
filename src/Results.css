@@ -4,3 +4,7 @@
   text-align: left;
   background-color: #d2dbc7;
 }
+
+.info-box {
+  max-width: 100%;
+}
